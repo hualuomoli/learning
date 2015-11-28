@@ -1,0 +1,29 @@
+{
+  "name": "wiredep-gulp",
+  "version": "1.0.0",
+  "description": "wiredep use for gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp bower"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hualuomoli/learning.git"
+  },
+  "keywords": [
+    "wiredep",
+    "gulp",
+    "bower",
+    "nodejs"
+  ],
+  "author": "hualuomoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hualuomoli/learning/issues"
+  },
+  "homepage": "https://github.com/hualuomoli/learning#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "wiredep": "*"
+  }
+}
