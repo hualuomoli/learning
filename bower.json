@@ -1,5 +1,5 @@
 {
-  "name": "wiredep-gulp",
+  "name": "wiredep",
   "description": "wiredep use for gulp",
   "main": "gulpfile.js",
   "authors": [
