@@ -8,7 +8,7 @@ Execute command `npm install & bower install` <br>
 
 Please use Command `gulp bower` and see index.html.you would find js file was auto write.
 
-## QUerstion
+## Querstion
 
 If you install bootstrap, but css con't install auto,please add such below to you gulpfile.js
 ```
