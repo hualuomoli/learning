@@ -1,0 +1,31 @@
+{
+  "name": "angular-requirejs",
+  "description": "angular + requirejs",
+  "main": "gulpfile.js",
+  "authors": [
+    "hualuomoli"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "requirejs",
+    "gulp"
+  ],
+  "homepage": "https://github.com/hualuomoli/learning",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "requirejs": "~2.1.22",
+    "angular-route": "~1.4.8",
+    "requirejs-domready": "~2.0.1",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6"
+  }
+}
