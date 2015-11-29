@@ -2,7 +2,7 @@
 define([
     // plugins
     'angular',
-    'angular-route',
+    'angular-ui-router',
 
     // common
     'common/controllers',
@@ -16,6 +16,6 @@ define([
         'app.controllers',
 
         // route
-        'ngRoute'
+        'ui.router'
     ]);
 });

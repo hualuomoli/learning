@@ -6,7 +6,7 @@ define([
     // app
     'app',
     // route
-    'routes'
+    'ui.routers'
 ], function(require, ng) {
     'use strict';
 
