@@ -9,12 +9,12 @@ define(['./app'], function(app) {
         $stateProvider
             .state('demo', {
                 url: "/demo",
-                templateUrl: "partials/demo.html",
+                templateUrl: "public/partials/demo.html",
                 controller: 'demoCtrl'
             })
             .state('test', {
                 url: "/test",
-                templateUrl: "partials/test.html",
+                templateUrl: "public/partials/test.html",
                 controller: 'testCtrl'
             });
 
