@@ -1,0 +1,31 @@
+{
+    "name": "angular-requirejs",
+    "version": "1.0.0",
+    "description": "angular requirejs ui-router http-server",
+    "main": "public/index.html",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "npm start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/hualuomoli/learning.git"
+    },
+    "keywords": [
+        "angular",
+        "requirejs",
+        "ui-router",
+        "http-server"
+    ],
+    "author": "hualuomoli",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hualuomoli/learning/issues"
+    },
+    "homepage": "https://github.com/hualuomoli/learning#readme",
+    "scripts": {
+        "start": "http-server -a localhost -p 9000 -c-l",
+        "prestart": "npm install & bower install"
+    }
+}
