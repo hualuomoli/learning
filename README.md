@@ -1,2 +1,3 @@
-# learning
-This is just Learning project to record what i have learn
+# 介绍
+
+学习插件，工具的使用
