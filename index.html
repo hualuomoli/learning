@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body ng-app='app'>
+    <div class="container" ng-controller='mainCtrl'>
+        <h1 class="text-center">Hello World</h1>
+        <div ng-switch="isAuth()">
+            <span ng-switch-when="false">Hello Guest!</span>
+            <span ng-switch-when="true">Welcome back User</span>
+        </div>
+        <button ng-click="login()">Login</button>
+        <button ng-click="logout()">Logout</button>
+    </div>
+    <div class="container" ng-controller='useCtrl'>
+        <!--  provider -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Provider</div>
+            </div>
+            <div class="penel-body">
+                <div class="row">
+                    <div class="col-md-3">private attribute</div>
+                    <div class="col-md-9">{{poo.url}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">public attribute</div>
+                    <div class="col-md-9">{{poo.variavle}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">method</div>
+                    <div class="col-md-9">{{poo.getUrl()}}</div>
+                </div>
+            </div>
+        </div>
+        <!-- factory -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Factory</div>
+            </div>
+            <div class="penel-body">
+                <div class="row">
+                    <div class="col-md-3">private attribute</div>
+                    <div class="col-md-9">{{foo.user}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">public attribute</div>
+                    <div class="col-md-9">{{foo.variavle}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">method</div>
+                    <div class="col-md-9">{{foo.getUser().username}}</div>
+                </div>
+            </div>
+        </div>
+        <!-- service -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Service</div>
+            </div>
+            <div class="penel-body">
+                <div class="row">
+                    <div class="col-md-3">private attribute</div>
+                    <div class="col-md-9">{{soo.thisIsPrivate}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">public attribute</div>
+                    <div class="col-md-9">{{soo.variavle}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">method</div>
+                    <div class="col-md-9">{{soo.getPrivate()}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">new decorator method</div>
+                    <div class="col-md-9">{{soo.greet()}},{{soo.test()}}</div>
+                </div>
+            </div>
+        </div>
+        <!--  value -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Value</div>
+            </div>
+            <div class="penel-body">
+                <div class="row">
+                    <div class="col-md-3">attribute</div>
+                    <div class="col-md-9">{{voo}}</div>
+                </div>
+            </div>
+        </div>
+        <!--  constant -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Constant</div>
+            </div>
+            <div class="penel-body">
+                <div class="row">
+                    <div class="col-md-3">attribute</div>
+                    <div class="col-md-9">{{coo}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" ng-controller="updateCtrl">
+        <button type="button" class="btn btn-info" ng-click="update();">update</button>
+    </div>
+    <!-- javascript -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="app/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "angular-tips",
+  "description": "angular nodejs gulp",
+  "main": "gulpfile.js",
+  "authors": [
+    "hualuomoli"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "nodejs",
+    "bootstrap",
+    "gulp"
+  ],
+  "homepage": "https://github.com/hualuomoli/learning",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6"
+  }
+}

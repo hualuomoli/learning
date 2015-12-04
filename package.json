@@ -1,0 +1,29 @@
+{
+  "name": "angular-tips",
+  "version": "1.0.0",
+  "description": "angular nodejs gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hualuomoli/learning.git"
+  },
+  "keywords": [
+    "angular",
+    "nodejs",
+    "bootstrap",
+    "gulp"
+  ],
+  "author": "hualuomoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hualuomoli/learning/issues"
+  },
+  "homepage": "https://github.com/hualuomoli/learning#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0"
+  }
+}
